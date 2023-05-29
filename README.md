@@ -32,14 +32,7 @@ npm install css-loader --save-dev
 npm install style-loader --save-dev
 ```
 
-
-## 2: Copy the webpack file
-
-```bash
-Copy the "webpack.config.js" file
-```  
-
-## 3: Change the "scripts" section in package.json
+## 2: Change the "scripts" section in package.json
 
 ```json
   "scripts": {
@@ -48,8 +41,16 @@ Copy the "webpack.config.js" file
   },
 ```  
 
-### After building the project with the previous 3 steps, start building the website either from scratch or pick the 4 initial files provided in the "src" folder.
-# To run the project use one of these 2 options.
+## 3: Copy template files
+
+```bash
+Copy the "webpack.config.js" file
+Copy the "src" folder with its contents
+```  
+
+### After building the project with the previous 3 steps, start building the website either from scratch or pick the 4 initial files provided in the "src" folder
+
+### To run the project use one of these 2 options.
 
 ```bash
 Run "npm run dev" for a local dev environment
