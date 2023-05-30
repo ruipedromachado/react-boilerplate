@@ -17,19 +17,19 @@ npm init -y
  * add react dependencies to nodejs project (NO REACT BOILERPLATE)
  *
  */
-npm install react --save
-npm install react-dom --save 
+npm install --save react
+npm install --save react-dom
 
-npm install webpack --save-dev 
-npm install webpack-cli --save-dev
-npm install webpack-dev-server --save-dev
-npm install @babel/core --save-dev
-npm install babel-loader --save-dev
-npm install @babel/preset-react --save-dev
-npm install @babel/preset-env --save-dev
-npm install html-webpack-plugin --save-dev
-npm install css-loader --save-dev
-npm install style-loader --save-dev
+npm install --save-dev webpack 
+npm install --save-dev webpack-cli
+npm install --save-dev webpack-dev-server
+npm install --save-dev @babel/core
+npm install --save-dev babel-loader
+npm install --save-dev @babel/preset-react
+npm install --save-dev @babel/preset-env
+npm install --save-dev html-webpack-plugin
+npm install --save-dev css-loader
+npm install --save-dev style-loader
 ```
 
 ## 2: Change the "scripts" section in package.json
