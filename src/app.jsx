@@ -8,10 +8,10 @@ import regeneratorRuntime from "regenerator-runtime";
  * ENDOF::
  */
 
-var App = () => {    
-    return (
-        <div>Boilerplate</div>
-    )
+var App = () => {
+  return (
+    <div>Boilerplate</div>
+  )
 }
 
 export default App;

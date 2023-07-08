@@ -30,6 +30,7 @@ npm install --save-dev @babel/preset-env
 npm install --save-dev html-webpack-plugin
 npm install --save-dev css-loader
 npm install --save-dev style-loader
+npm install --save-dev file-loader
 ```
 
 ## 2: Change the "scripts" section in package.json
